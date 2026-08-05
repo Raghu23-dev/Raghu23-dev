@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/github/followers/Raghu23-dev?label=Followers&style=flat-square&color=4c1d95&logo=github&logoColor=white" alt="Followers" />
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://raghurr.pages.dev"><img src="https://img.shields.io/badge/Portfolio-4c1d95?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Open%20to-GenAI%20%C2%B7%20Full--Stack%20%C2%B7%20LLM%20Systems-1f6feb?style=flat-square" alt="Open to work" />
 </div>
@@ -45,7 +46,7 @@
 - 🎨 **Co-built a GenAI wireframe generator** (briefs/sketches/prompts → UI artifacts) and a **prompt-to-React code-gen system**; **led a React → Angular re-architecture**; and shipped a **90+ component enterprise design system** as a private NPM package.
 - 🌱 Currently going deeper on **LLMOps, evaluation harnesses, and distributed-systems design**.
 - 💬 Ask me about **multi-agent orchestration, production RAG, and real-time streaming at scale**.
-- 📫 Reach me at **raghu.builds&#64;gmail.com** · 🌐 [Portfolio](https://raghurr.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p)
+- 📫 Reach me at **raghu.builds&#64;gmail.com** · 🌐 [Portfolio](https://raghurr.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p) · 📄 [Résumé (PDF)](https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf)
 
 ---
 
@@ -84,72 +85,37 @@
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" /><br><sub><b>FastAPI</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=angular" width="48" height="48" /><br><sub><b>Angular</b></sub></td>
       <td align="center" width="80"><img src="https://techstack-generator.vercel.app/react-icon.svg" width="48" height="48" /><br><sub><b>React</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" /><br><sub><b>Node.js</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" /><br><sub><b>Next.js</b></sub></td>
     </tr>
     <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" /><br><sub><b>Redis</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=kafka" width="48" height="48" /><br><sub><b>Kafka</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" /><br><sub><b>Tailwind</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=sass" width="48" height="48" /><br><sub><b>SCSS</b></sub></td>
+      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/grpc.png"/><br><sub><b>gRPC</b></sub></td>
+      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/websocket.png"/><br><sub><b>WebSocket</b></sub></td>
+      <td align="center" width="80"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="48" height="48" /><br><sub><b>Nginx</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" /><br><sub><b>PostgreSQL</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" /><br><sub><b>Redis</b></sub></td>
+    </tr>
+    <tr>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=kafka" width="48" height="48" /><br><sub><b>Kafka</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" /><br><sub><b>SQLite</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" /><br><sub><b>MongoDB</b></sub></td>
       <td align="center" width="80"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" /><br><sub><b>Docker</b></sub></td>
       <td align="center" width="80"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="48" height="48" /><br><sub><b>K8s</b></sub></td>
-    </tr>
-    <tr>
       <td align="center" width="80"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" /><br><sub><b>AWS</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=azure" width="48" height="48" /><br><sub><b>Azure</b></sub></td>
-      <td align="center" width="80"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="48" height="48" /><br><sub><b>Nginx</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" /><br><sub><b>Linux</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/grpc.png"/><br><sub><b>gRPC</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/websocket.png"/><br><sub><b>WebSocket</b></sub></td>
-      <td align="center" width="80"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="48" height="48" /><br><sub><b>GraphQL</b></sub></td>
     </tr>
     <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" /><br><sub><b>Next.js</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" /><br><sub><b>Tailwind</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=sass" width="48" height="48" /><br><sub><b>Sass</b></sub></td>
-      <td align="center" width="80"><img src="https://techstack-generator.vercel.app/webpack-icon.svg" width="48" height="48" /><br><sub><b>Webpack</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" /><br><sub><b>Prometheus</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" /><br><sub><b>Grafana</b></sub></td>
+      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/playwright.png"/><br><sub><b>Playwright</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" /><br><sub><b>Linux</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" /><br><sub><b>Git</b></sub></td>
       <td align="center" width="80"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="48" height="48" /><br><sub><b>GitHub</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" /><br><sub><b>VS Code</b></sub></td>
     </tr>
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=bash" width="48" height="48" /><br><sub><b>Bash</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" /><br><sub><b>Prometheus</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" /><br><sub><b>Grafana</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/playwright.png"/><br><sub><b>Playwright</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postman.png"/><br><sub><b>Postman</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swagger.png"/><br><sub><b>Swagger</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jira.png"/><br><sub><b>Jira</b></sub></td>
-    </tr>
-    <tr>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/npm.png"/><br><sub><b>npm</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=redux" width="48" height="48" /><br><sub><b>Redux</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=vue" width="48" height="48" /><br><sub><b>Vue.js</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" /><br><sub><b>Material UI</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/shadcn_ui.png"/><br><sub><b>ShadCN</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" /><br><sub><b>Vite</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bun_js.png"/><br><sub><b>Bun.js</b></sub></td>
-    </tr>
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=dynamodb" width="48" height="48" /><br><sub><b>DynamoDB</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=elasticsearch" width="48" height="48" /><br><sub><b>Elastic</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/neo4j.png"/><br><sub><b>Neo4j</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" /><br><sub><b>Firebase</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" /><br><sub><b>Supabase</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rabbitmq.png"/><br><sub><b>RabbitMQ</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" /><br><sub><b>Terraform</b></sub></td>
-    </tr>
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" /><br><sub><b>GCP</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" /><br><sub><b>TensorFlow</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png"/><br><sub><b>NumPy</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png"/><br><sub><b>Pandas</b></sub></td>
-      <td align="center" width="80"><img width="46" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/langchain_icon.png"/><br><sub><b>LangChain</b></sub></td>
-      <td align="center" width="80"></td>
-      <td align="center" width="80"></td>
-    </tr>
   </table>
+  <sub>Every icon above maps to a line in my verified skills inventory — ask me to walk you through any of them.</sub>
 </div>
 
 **🧠 GenAI / LLM**
@@ -185,23 +151,12 @@
 <!-- ═══════════════════════════════ GITHUB STATS ═══════════════════════════════ -->
 ### 📊 GitHub Analytics
 
-<div align="center">
-  <img width="82%" alt="Profile summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raghu23-dev&theme=github_dark" />
-</div>
-
-<div align="center">
-  <img height="180" alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raghu23-dev&theme=github_dark" />
-  <img height="180" alt="Most-used language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raghu23-dev&theme=github_dark" />
-</div>
-
-<div align="center">
-  <img height="180" alt="Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raghu23-dev&theme=github_dark" />
-  <img height="180" alt="Productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Raghu23-dev&theme=github_dark&utcOffset=5.5" />
-</div>
-
-<div align="center">
-  <img height="170" alt="Streak" src="https://streak-stats.demolab.com/?user=Raghu23-dev&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=f97316&currStreakLabel=A78BFA&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
-</div>
+<!--
+  Removed 2026-08-06: github-profile-summary-cards (5 cards) and streak-stats.demolab.com.
+  All returned 500/503 at audit time, including for control usernames — the outages are
+  provider-wide, not account-specific, and github-readme-stats / the Heroku streak mirror
+  were down too. Broken-image icons read worse than no section. Only URLs verified 200 stay.
+-->
 
 <div align="center">
   <img width="98%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Raghu23-dev&bg_color=0d1117&color=A78BFA&line=6d28d9&point=ffffff&area=true&area_color=4c1d95&hide_border=true" />
@@ -232,6 +187,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://raghurr.pages.dev"><img src="https://img.shields.io/badge/Portfolio-4c1d95?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Raghu23-dev"><img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
