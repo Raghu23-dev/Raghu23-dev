@@ -26,8 +26,6 @@
   <br />
   <img src="https://img.shields.io/badge/Production%20Systems-6-6d28d9?style=for-the-badge" alt="6 systems" />
   <img src="https://img.shields.io/badge/Daily%20Users-3K%2B-7c3aed?style=for-the-badge" alt="3K+ users" />
-  <img src="https://img.shields.io/badge/Throughput-10%C3%97-4c1d95?style=for-the-badge" alt="10x" />
-  <img src="https://img.shields.io/badge/Latency-%3C150ms-1f6feb?style=for-the-badge" alt="<150ms" />
   <img src="https://img.shields.io/badge/Design%20System-90%2B%20components-4c1d95?style=for-the-badge" alt="90+ components" />
 </div>
 
@@ -42,7 +40,7 @@
 - 🤖 **Co-built & production-hardened an AI process-orchestration engine** — multi-step LLM workflows with **human-in-the-loop approval gates**, governed multi-provider model routing, **Kafka** multi-pod streaming, conversation compaction, and per-run cost tracking. *(2K+ daily users.)*
 - 🧑‍💻 **Built the backend for an AI coding plugin for VS Code** (a Cursor / Claude-Code-class tool) — re-architected a single-agent prototype into a **multi-agent orchestration system** (Main-Agent + sub-agents on CrewAI, 30+ tools, skills & command frameworks, conversational memory, streaming). *(3K+ daily users across 5+ enterprise environments.)*
 - 🔎 **Engineered a hybrid code-retrieval RAG pipeline** — Tree-sitter parsing + SQLite FTS5 BM25 + sqlite-vec + embeddings + **Cohere rerank** + **RRF fusion** + an 8-intent query planner that grounds the agents in real codebase context.
-- ⚡ **Designed an SSE + Redis Streams real-time backbone** — replaced client polling with a decoupled pub/sub transport, scaling **10× throughput at sub-150ms** across **10K+ events/day for 2.5K+ users**.
+- ⚡ **Designed an SSE + Redis Streams real-time backbone** — replaced client polling with a decoupled pub/sub transport: per-session connection deduplication, exponential backoff, `Last-Event-ID` checkpointing, and history backfill on zero-replay reconnect.
 - 🎨 **Co-built a GenAI wireframe generator** (briefs/sketches/prompts → UI artifacts) and a **prompt-to-React code-gen system**; **led a React → Angular re-architecture**; and shipped a **90+ component enterprise design system** as a private NPM package.
 - 🌱 Currently going deeper on **LLMOps, evaluation harnesses, and distributed-systems design**.
 - 💬 Ask me about **multi-agent orchestration, production RAG, and real-time streaming at scale**.
@@ -67,9 +65,9 @@
 
 | System | What it is & tech | Impact |
 |---|---|:--:|
-| **AI App-Generation Platform** | Prompt-to-app, image-to-app & wireframe generation — designed the **SSE + Redis Streams** real-time backbone; re-architected the frontend **React → Angular**.<br>`Angular` · `RxJS` · `Signals` · `FastAPI` · `Redis Streams` · `SSE` | **10× @<br><150 ms** |
+| **AI App-Generation Platform** | Prompt-to-app, image-to-app & wireframe generation — designed the **SSE + Redis Streams** real-time backbone; re-architected the frontend **React → Angular**.<br>`Angular` · `RxJS` · `Signals` · `FastAPI` · `Redis Streams` · `SSE` | prompt →<br>running app |
 | **AI Product-Planning Platform** | Multi-step AI-assisted planning flow (Brainstormer → Persona → SWOT → Roadmap → Summary) — async services on Postgres.<br>`Angular` · `FastAPI` · `PostgreSQL` · `asyncpg` · `AWS RDS IAM` · `Alembic` · `Redis` | end-to-end<br>owner |
-| **Enterprise Angular Design System** | 90+ standalone components — OnPush change detection, tree-shaking, token-driven theming, GSAP animation infra; published as a private NPM package.<br>`Angular` · `TypeScript` · `SCSS` · `GSAP` · `ng-packagr` | **−30%**<br>load |
+| **Enterprise Angular Design System** | 90+ standalone components — OnPush change detection, tree-shaking, token-driven theming, GSAP animation infra; published as a private NPM package.<br>`Angular` · `TypeScript` · `SCSS` · `GSAP` · `ng-packagr` | **90+**<br>components |
 
 ---
 
