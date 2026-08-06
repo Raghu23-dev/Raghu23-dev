@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/github/followers/Raghu23-dev?label=Followers&style=flat-square&color=4c1d95&logo=github&logoColor=white" alt="Followers" />
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://raghurr.pages.dev"><img src="https://img.shields.io/badge/Portfolio-4c1d95?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Open%20to-GenAI%20%C2%B7%20Full--Stack%20%C2%B7%20LLM%20Systems-1f6feb?style=flat-square" alt="Open to work" />
 </div>
@@ -43,7 +44,7 @@
 - 🎨 **Co-built a GenAI wireframe generator** (briefs/sketches/prompts → UI artifacts) and a **prompt-to-React code-gen system**; **led a React → Angular re-architecture**; and shipped a **90+ component enterprise design system** as a private NPM package.
 - 🌱 Currently going deeper on **LLMOps, evaluation harnesses, and distributed-systems design**.
 - 💬 Ask me about **multi-agent orchestration, production RAG, and real-time streaming at scale**.
-- 📫 Reach me at **raghu.builds&#64;gmail.com** · 🌐 [Portfolio](https://raghurr.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p)
+- 📫 Reach me at **raghu.builds&#64;gmail.com** · 🌐 [Portfolio](https://raghurr.pages.dev) · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p) · 📄 [Résumé (PDF)](https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf)
 
 ---
 
@@ -184,6 +185,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://raghurr.pages.dev"><img src="https://img.shields.io/badge/Portfolio-4c1d95?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Raghu23-dev"><img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
