@@ -13,8 +13,6 @@
   <img src="https://komarev.com/ghpvc/?username=Raghu23-dev&label=Profile%20views&color=6d28d9&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Raghu23-dev?label=Followers&style=flat-square&color=4c1d95&logo=github&logoColor=white" alt="Followers" />
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://raghuram.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1d5fd4?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Open%20to-GenAI%20%C2%B7%20Full--Stack%20%C2%B7%20LLM%20Systems-1f6feb?style=flat-square" alt="Open to work" />
 </div>
@@ -24,7 +22,6 @@
   <br />
   <img src="https://img.shields.io/badge/Production%20Systems-6-6d28d9?style=for-the-badge" alt="6 systems" />
   <img src="https://img.shields.io/badge/Daily%20Users-3K%2B-7c3aed?style=for-the-badge" alt="3K+ users" />
-  <img src="https://img.shields.io/badge/Design%20System-90%2B%20components-4c1d95?style=for-the-badge" alt="90+ components" />
 </div>
 
 ---
@@ -39,38 +36,14 @@
 - 🧑‍💻 **Built the backend for an AI coding plugin for VS Code** (a Cursor / Claude-Code-class tool) — re-architected a single-agent prototype into a **multi-agent orchestration system** (Main-Agent + sub-agents on CrewAI, 30+ tools, skills & command frameworks, conversational memory, streaming). *(3K+ daily users across 5+ enterprise environments.)*
 - 🔎 **Contributed to a hybrid code-retrieval RAG pipeline** — Tree-sitter parsing + SQLite FTS5 BM25 + sqlite-vec + embeddings + **Cohere rerank** + **RRF fusion** + an 8-intent query planner. **Owned the ingestion path**: resumable multi-phase indexing, SSE progress streaming, two-tier admission control.
 - ⚡ **Designed an SSE + Redis Streams real-time backbone** — replaced client polling with a decoupled pub/sub transport: per-session connection deduplication, exponential backoff, `Last-Event-ID` checkpointing, and history backfill on zero-replay reconnect.
-- 🎨 **Co-built a GenAI wireframe generator** (briefs/sketches/prompts → UI artifacts) and a **prompt-to-React code-gen system**; **led a React → Angular re-architecture**; and shipped a **90+ component enterprise design system** as a private NPM package.
+- 🎨 **Co-built a GenAI wireframe generator** (briefs/sketches/prompts → UI artifacts) and a **prompt-to-React code-gen system**; **led a React → Angular re-architecture**; and shipped a **126-component enterprise design system** as a private NPM package.
 - 🌱 Currently going deeper on **LLMOps, evaluation harnesses, and distributed-systems design**.
 - 💬 Ask me about **multi-agent orchestration, production RAG, and real-time streaming at scale**.
-- 📫 Reach me at **raghu.builds&#64;gmail.com** · 🌐 [Portfolio](https://raghuram.vercel.app) · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p) · 📄 [Résumé (PDF)](https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf)
+- 📫 Reach me at **raghu.builds&#64;gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/raghuram-p)
 
 ---
 
 <!-- ═══════════════════════════════ SYSTEMS SHIPPED ═══════════════════════════════ -->
-### 📦 Open Source
-
-*All three published on PyPI. Every metric below is measured and reproducible from the repo.*
-
-| Project | What it does | Stack |
-|---|---|---|
-| **[tessera](https://github.com/Raghu23-dev/tessera)**<br/>`pip install tessera-transcript` | Keeps LLM transcripts valid when a stream is cut, a retry fires, or context is compacted. Guarantees every `tool_use` has a matching `tool_result` across compaction, interruption and provider swap — the error behind **1,331 open GitHub issues**. Property-tested with Hypothesis plus a dependency-free byte fuzzer in CI — which found two defects the unit tests missed. 96.9% coverage on an enforced floor, zero runtime dependencies. | `Python` · `Hypothesis` · `mypy --strict` |
-| **[verity](https://github.com/Raghu23-dev/verity)**<br/>`pip install verity-retrieval` | Measures retrieval instead of assuming it, and fixes filtered vector search that silently returns fewer results than requested. At 3% filter selectivity, measured against an exhaustive oracle: post-filtering returns **0.36 of 10** results; predicate pushdown returns **10.00 of 10**. Deterministic recall@k / nDCG@k — no LLM judge. | `Python` · `numpy` · `Hypothesis` |
-| **[sentinel](https://github.com/Raghu23-dev/sentinel)**<br/>`pip install sentinel-gate` | Human-in-the-loop approval for agents. The timeout direction follows the risk — recoverable work proceeds unattended, irreversible work does not — and **ten distinct failure modes all produce a refusal rather than a permit**, because a permission check that cannot complete has not granted permission. The README names the test holding each one, and a test asserts every named test exists. | `Python` · `SQLite` · `Hypothesis` |
-| **[atlas](https://github.com/Raghu23-dev/atlas)** | This profile's [portfolio site](https://raghuram.vercel.app). One content layer feeds every page, the sitemap and `llms.txt`; attribution is a typed field; the build fails on a dead link. | `Next.js 16` · `React 19` · `TypeScript` · `Velite` |
-
----
-
-### ✍️ Writing
-
-Findings and postmortems, not tutorials. Every measured claim links to something you can re-run.
-
-| Piece | |
-|---|---|
-| **[Your filtered vector search is returning 3 results when you asked for 10](https://raghuram.vercel.app/writing/filtered-vector-search-returns-fewer-results)** | Most vector stores apply metadata filters *after* the index returns. Measured at 3% selectivity: **0.36 of 10** results, **100% of queries short** — and no error, so nothing tells you. Reproducible with `verity bench`. |
-| **[The check passed. The thing it checks was broken.](https://raghuram.vercel.app/writing/checks-that-pass-while-broken)** | Four false-greens in one day: a link checker that followed a redirect into a login page and reported 200, a compiler that logged an error and exited zero, a rule that only printed the number it was supposed to enforce, and a fuzzer whose oracle flagged correct behaviour as 1,300 failures. |
-
----
-
 ### 🧩 Systems I've Shipped
 
 > Built for enterprise clients across hardware, banking & fintech domains. Source is proprietary — **company and product names withheld**; architecture, tech, and scale are summarized below.
@@ -205,8 +178,6 @@ Findings and postmortems, not tutorials. Every measured claim links to something
 
 <div align="center">
   <a href="https://www.linkedin.com/in/raghuram-p"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://raghuram.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1d5fd4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/Raghu23-dev/Raghu23-dev/raw/main/Raghuram_P_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-b91c1c?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:raghu.builds&#64;gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Raghu23-dev"><img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
