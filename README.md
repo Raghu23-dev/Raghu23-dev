@@ -52,6 +52,7 @@
 | Project | What it does | Stack |
 |---|---|---|
 | **[tessera](https://github.com/Raghu23-dev/tessera)** | Keeps LLM transcripts valid when a stream is cut, a retry fires, or context is compacted. Guarantees every `tool_use` has a matching `tool_result` across compaction, interruption and provider swap — the error behind **1,331 open GitHub issues**. Property-tested with Hypothesis, 97% coverage on an enforced floor, zero runtime dependencies. | `Python` · `Hypothesis` · `mypy --strict` |
+| **[verity](https://github.com/Raghu23-dev/verity)** | Measures retrieval instead of assuming it, and fixes filtered vector search that silently returns fewer results than requested. At 3% filter selectivity, measured against an exhaustive oracle: post-filtering returns **0.36 of 10** results; predicate pushdown returns **10.00 of 10**. Deterministic recall@k / nDCG@k — no LLM judge. | `Python` · `numpy` · `Hypothesis` |
 | **[atlas](https://github.com/Raghu23-dev/atlas)** | This profile's [portfolio site](https://raghuram.vercel.app). One content layer feeds every page, the sitemap and `llms.txt`; attribution is a typed field; the build fails on a dead link. | `Next.js 16` · `React 19` · `TypeScript` · `Velite` |
 
 ---
