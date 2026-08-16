@@ -60,6 +60,17 @@
 
 ---
 
+### ✍️ Writing
+
+Findings and postmortems, not tutorials. Every measured claim links to something you can re-run.
+
+| Piece | |
+|---|---|
+| **[Your filtered vector search is returning 3 results when you asked for 10](https://raghuram.vercel.app/writing/filtered-vector-search-returns-fewer-results)** | Most vector stores apply metadata filters *after* the index returns. Measured at 3% selectivity: **0.36 of 10** results, **100% of queries short** — and no error, so nothing tells you. Reproducible with `verity bench`. |
+| **[The check passed. The thing it checks was broken.](https://raghuram.vercel.app/writing/checks-that-pass-while-broken)** | Four false-greens in one day: a link checker that followed a redirect into a login page and reported 200, a compiler that logged an error and exited zero, a rule that only printed the number it was supposed to enforce, and a fuzzer whose oracle flagged correct behaviour as 1,300 failures. |
+
+---
+
 ### 🧩 Systems I've Shipped
 
 > Built for enterprise clients across hardware, banking & fintech domains. Source is proprietary — **company and product names withheld**; architecture, tech, and scale are summarized below.
