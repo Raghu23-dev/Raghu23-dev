@@ -141,24 +141,32 @@
 
 ---
 
+<!-- ═══════════════════════════════ CONTRIBUTION SNAKE ═══════════════════════════════ -->
+### 🐍 Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raghu23-dev/Raghu23-dev/output/snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raghu23-dev/Raghu23-dev/output/snake-light.svg" />
+    <img width="100%" alt="Contribution snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Raghu23-dev/Raghu23-dev/output/snake.svg" />
+  </picture>
+  <br />
+  <sub>Sparse by construction, not by inactivity — most of the work above was committed under a work-domain email GitHub cannot link to this account. Attribution is fixed going forward; this graph only reflects what it can see.</sub>
+</div>
+
 <!--
-  ═══════════════════════════════ GITHUB STATS — INTENTIONALLY ABSENT ═══════════════════════════════
+  Restored 2026-08-19. Removed 2026-08-16 because it rendered a near-flat line directly
+  beneath badges claiming 6 production systems and 3K+ daily users, and that contradiction
+  reads as inflation.
 
-  Removed 2026-08-16: the activity graph and contribution snake.
-
-  Not because they were broken — they rendered fine. Because they rendered a near-flat line
-  directly beneath badges claiming 6 production systems and 3K+ daily users, and that
-  contradiction reads as inflation.
-
-  Root cause is not inactivity: substantive commits were authored under a work-domain email
-  that GitHub cannot link to this account, so real work never reached the contribution graph.
-  Identity is fixed going forward (raghu2308.dev@gmail.com).
-
-  These come back when the graph reflects the work — not before. A decoration that argues
-  against your own claims is worse than no decoration.
+  Restored with the caption above rather than silently: the gap is real, and naming its
+  cause is more honest than hiding the evidence of it. Verified before restoring —
+  .github/workflows/snake.yml (Platane/snk@v3, cron every 12h) still deploys to the
+  output branch; both SVGs return HTTP 200; the dark/light palettes are distinct.
+  Currently 4 of 364 grid cells carry contribution data, none at the top level.
 
   Earlier removal, 2026-08-06: github-profile-summary-cards and streak-stats.demolab.com —
-  provider-wide 500/503 outages, verified against control usernames.
+  provider-wide 500/503 outages, verified against control usernames. Those stay out.
 -->
 
 <!-- ═══════════════════════════════ PHILOSOPHY ═══════════════════════════════ -->
